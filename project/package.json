@@ -14,5 +14,9 @@
   ],
   "author": "",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.7.0"
+  }
 }
