@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+   <HEAD>
+      <TITLE>Artist Database</TITLE>
+       <link rel="stylesheet" type="text/css" href="style.css">
+       <script src="http://code.jquery.com/jquery-latest.js"></script>
+       <script src="main.js" type="text/javascript"></script>
+       <script src="artistHandler.js" type="text/javascript"></script>
+   </HEAD>
+   <BODY onload = init()>
+       <form id='form1'>
+           <input id='inNam' type='text' value='Name'>
+           <input id='inPoB' type='text' value='Place of Birth'>
+           <input id='inDoB' type='text' value='Date of Birth'>
+           <label><input id='inFav' type='checkbox'>Favorite</label>
+           <button type='button' onclick='newArtist()'>Add to the List</button>
+       </form>
+       <form>
+           <input id='console' type='text' size='70' value='Search for an artist by name.'>
+           <button type='button' onclick='searchArtist()'>Search for Actor</button>
+       </form>
+   </BODY>
+</HTML>

@@ -2,21 +2,22 @@
   "name": "vs praktikum 2",
   "version": "0.1.0",
   "description": "vs praktikum 2",
-  "main": "hello-world-server.js",
+  "main": "node server.js",
   "scripts": {
     "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
   },
-  "repository": "",
+  "repository": "https://github.com/demkd/vsPrakt2",
   "keywords": [
     "node.js",
     "eclipse",
     "nodeclipse"
   ],
-  "author": "",
+  "author": "Dennis Lauer",
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
     "mongodb": "^2.2.11",
-    "mongoose": "^4.7.0"
+    "mongoose": "^4.7.0",
+    "nodejs-websocket": "^1.7.1"
   }
 }
